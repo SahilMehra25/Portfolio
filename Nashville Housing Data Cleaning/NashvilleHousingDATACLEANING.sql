@@ -1,6 +1,7 @@
 select *
 from [port.project]..NashvilleHousing
 
+	
 --There is a column named SaleDate but it's in date and time format so  I am going to convert it into date by using CONVERT
 
 select SaleDate,convert(Date,SaleDate)
