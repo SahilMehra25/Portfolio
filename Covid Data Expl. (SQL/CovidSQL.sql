@@ -4,6 +4,7 @@
 
 
 
+
 select * 
 from [port.project]..CovidDeaths
 where continent is not  null
